@@ -1,0 +1,147 @@
+
+/* big tablet to width smaller than the 1148 raw */
+@media only screen and (max-width:1200px) {
+    .hero-text-box{
+        position: absolute;
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {padding: 0 2%;}
+}
+
+/* small tablet to big tablet */
+@media only screen and (max-width:1023px) {
+    body {font-size: 16px;}
+    section {padding: 60px 0px;}
+    
+    .long-copy {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .steps-box,
+    .steps-box:last-child{margin-top:10px;}
+    .works-step {margin-bottom: 40px;} 
+    .works-step:last-of-type {margin-bottom: 60px;}
+    
+    .app-screen {width:50%;}
+    
+    .icon-small {width: 17px;}
+    .city-feature {font-size: 80%;}
+    .plan-box {
+        width:90%;
+        margin-left:5%;
+    }
+    .plan-price {
+        font-size:150%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin-right: 10px;    
+    }
+    footer {
+        background-color: #202536;
+        padding: 20px;
+        font-size: 75%;
+    }
+}
+
+/* small phones to small tablets */
+@media only screen and (max-width:767px) {
+    body {font-size: 14px;}
+    section {padding: 30px 0px;}
+    .row,
+    .hero-text-box {padding: 0 4%;}
+    .col{ width: 100%;}
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1{font-size: 180%; word-spacing: 0px; letter-spacing: 1px;}
+    h2{font-size: 150%; word-spacing: 0px; letter-spacing: 1px;}
+    
+    .works-step {margin-bottom: 20px;} 
+    .works-step:last-of-type {margin-bottom: 20px;}
+    
+    .steps-box:first-child {
+    text-align: center;
+    padding-right: 0%;
+    margin-top: 20px;
+    }
+
+    .steps-box:last-child {
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .app-screen {
+        width: 40%;
+        
+    }
+    .works-step div {
+        height: 35px;
+        width: 35px;
+        padding: 3px;
+        font-size:120%;
+        margin-right: 15px;
+    }
+    .box img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .contact-form {
+        width:90%;
+        margin: 0 auto;
+    }
+    
+    label {
+    margin: 3% 0%
+}
+
+}
+
+/* small phones */
+@media only screen and (max-width:480px) {
+    .main-nav{display:none;}
+    
+    h1{font-size: 130%;}
+    h2{font-size: 110%;}
+    h3{font-size: 100%;}
+    
+    .row,
+    .hero-text-box {padding: 0 2%;}
+    
+    .form {
+        margin: 5% 0 2% 0;
+    }
+    
+    blockquote:before {
+    content: "\201C";
+    font-size: 200%;
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+}
+    
+    .footer-nav li,
+    .social-links li {
+        margin-right: 10px;
+        margin-bottom: 3%;
+    }
+    
+        .social-links {
+        margin-top: 4%;
+        float:left;
+    }
+
+
+}
