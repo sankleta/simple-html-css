@@ -10,7 +10,7 @@ html,
 body {
     background-color: #fff;
     color: #555;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -182,8 +182,8 @@ input[type="submit"]{
 /*  HEADER  =============================================================================== */
 
 header {
-    background-image: linear-gradient(rgba(0, 62, 126, 0.71), rgba(0, 0, 0, 0.7)), url(img/granny-dancing-and-hercat-07.jpg);
-    /*background-size: contain;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
@@ -569,4 +569,25 @@ footer p{
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+/*  ANIMATIONS  ========================================================================= */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated {
+    opacity: 1;
 }
