@@ -264,6 +264,20 @@ header {
 .sticky .logo-black {display: block;}
 .sticky .logo {display:none;}
 
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top:3px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white;
+}
+
 /*  FEATURES  ============================================================================= */
 
 .section-features .long-copy {
